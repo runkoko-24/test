@@ -1,0 +1,73 @@
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;      /* デフォルトの太字(700)から中間の太さに */
+    color: #333;           /* 黒より少し薄め */
+    font-family: "Helvetica Neue", Arial, sans-serif; /* 柔らかめのフォント */
+}
+
+.a-box {
+    background-color: #e3f2fd; /* 薄いパステルブルー */
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #bbdefb;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.passed {
+    position: relative; /* 親を基準にする */
+}
+
+.passed .icon {
+    margin-left: 0.1px; /* 文字との距離 */
+}
+
+.b-box {
+    background-color: #fff9c4; /* 薄い黄色 */
+    padding: 15px;             /* 内側の余白 */
+    border-radius: 8px;        /* 角を少し丸く */
+    border: 1px solid #f0e68c; /* 少し濃い黄色で枠線 */
+}
+
+.blue-box {
+    border: 1px solid blue; /* 枠線の太さ1px、色は青 */
+    padding: 8px;           /* 枠と文字の間に余白をつける */
+    display: inline-block;  /* 枠の幅を文字分にする（必要に応じて） */
+}
+
+.book-image {
+    display: block;       /* ブロック要素にして上下に余白が効くようにする */
+    margin-top: 8px;      /* 上に8pxの空白を作る */
+}
+
+.link:hover {
+    color: #0d47a1;           /* マウスを合わせたとき赤くなる */
+    cursor: pointer;      /* カーソルを手の形に */
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.schedule-table th, .schedule-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.schedule-table th {
+    background-color: #e6f3ff;
+    font-weight: bold;
+}
+
+.schedule-table td:first-child {
+    font-weight: bold;
+    color: #333;
+}
+.summary {
+    background-color: #cce5ff; /* 薄い青 */
+    padding: 20px;             /* 内側の余白を広めに */
+    border-radius: 8px;        /* 角を少し丸く */
+}
